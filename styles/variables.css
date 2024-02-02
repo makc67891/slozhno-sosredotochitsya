@@ -4,10 +4,13 @@
 */
 
 :root {
-  --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --title-color: #db00ff;
-  --bg-color: #000028;
+  --main-title-color: #db00ff;
+  --text-info-color: #f1b2ce;
+  --title-info-color: #000028;
+  --title-block-color: #ff0070;
+  --navigation-color: #ff0070;
+  --decoration-color: #ff0070;
   --hover-transperent: rgba(255, 0, 112, 0.4);
   --font-main: "IBM Plex Mono", Arial, Helvetica, sans-serif;
   --font-size: 18px;

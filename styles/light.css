@@ -9,83 +9,36 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-
-  --text-color: #353430;
-  --accent-color: #ff8dcb;
-  --title-color: #ffc2e6;
-  --bg-color: #fff1f7;
-  --hover-transperent: rgba(50, 49, 45, 0.4);
-
   background-image: url(../images/cover-image-light.png);
+
+  --accent-color: #ff8dcb;
+  --main-title-color: #ffc2e6;
+  --text-info-color: #353430;
+  --title-info-color: #353430;
+  --title-block-color: #353430;
+  --navigation-color: #353430;
+  --decoration-color: #353430;
+  --hover-transperent: rgba(50, 49, 45, 0.4);
 }
 
 .page.theme_light .header__decoration-text {
   display: none;
 }
 
-.page.theme_light .header__theme-menu-item,
-.page.theme_light .content__block-title h2,
-.page.theme_light .content__block-info h3,
-.page.theme_light .header__theme-subtitle,
-.page.theme_light .content__how-span {
-  color: var(--text-color);
-}
-
-.page.theme_light .decorated-zone::after {
-  border-block-end: 1px solid var(--text-color);
-  border-inline-start: 1px solid var(--text-color);
-}
-
-.page.theme_light .decorated-zone::before {
-  border-block-start: 1px solid var(--text-color);
-  border-inline-end: 1px solid var(--text-color);
-}
-
-.page.theme_light .header__theme-menu-button_active {
-  border: 1px solid var(--text-color);
-}
-
-.page.theme_light .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--text-color);
-}
-
 @media (prefers-color-scheme: light) {
   :root {
-    --text-color: #353430;
     --accent-color: #ff8dcb;
-    --title-color: #ffc2e6;
-    --bg-color: #fff1f7;
+    --main-title-color: #ffc2e6;
+    --text-info-color: #353430;
+    --title-info-color: #353430;
+    --title-block-color: #353430;
+    --navigation-color: #353430;
+    --decoration-color: #353430;
     --hover-transperent: rgba(50, 49, 45, 0.4);
   }
 
   .page {
     background-image: url(../images/cover-image-light.png);
-  }
-
-  .header__theme-menu-item,
-  .content__block-title h2,
-  .content__block-info h3,
-  .header__theme-subtitle,
-  .content__how-span {
-    color: var(--text-color);
-  }
-
-  .decorated-zone::after {
-    border-block-end: 1px solid var(--text-color);
-    border-inline-start: 1px solid var(--text-color);
-  }
-
-  .decorated-zone::before {
-    border-block-start: 1px solid var(--text-color);
-    border-inline-end: 1px solid var(--text-color);
-  }
-
-  .header__theme-menu-button_active {
-    border: 1px solid var(--text-color);
-  }
-
-  .header__theme-menu-button:focus-visible {
-    border-block-end: 1px solid var(--text-color);
   }
 
   .header__decoration-text {
