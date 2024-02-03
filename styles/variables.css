@@ -20,4 +20,7 @@
   --margin-block-norm: 60px;
   --mob-margin-block-big: 50px;
   --mob-margin-block-norm: 40px;
+  --min-height-desktop: 768px;
+  --min-height-tablet: 1024px;
+  --min-height-mobile: 668px;
 }
